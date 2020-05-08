@@ -11,7 +11,8 @@ class ApodModel {
     @required this.media_type,
     @required this.image_thumbnail,
     @required this.hdurl,
-    @required this.thumbnail_url
+    @required this.thumbnail_url,
+    @required this.url
   });
 
   final String apod_site;
@@ -22,5 +23,6 @@ class ApodModel {
   final String image_thumbnail;
   final String hdurl;
   final String thumbnail_url;
-  
+  final String url;
+
 }
