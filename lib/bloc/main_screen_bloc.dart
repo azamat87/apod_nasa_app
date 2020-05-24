@@ -10,3 +10,11 @@ class MainScreenBloc {
 
 
 }
+
+class ApodState {
+  ApodState();
+
+}
+
+class ApodInitState extends ApodState {
+}
